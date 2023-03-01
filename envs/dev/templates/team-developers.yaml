@@ -13,7 +13,7 @@ spec:
   source:
     repoURL: {{ .Values.spec.source.repoURL }}
     targetRevision: {{ .Values.spec.source.targetRevision }}
-    path: teams/team-developers/dev
+    path: envs/dev
     helm:
       parameters:
       - name: spec.ingress.host
